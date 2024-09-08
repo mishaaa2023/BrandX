@@ -1,5 +1,6 @@
 "use client"
 import { motion } from "framer-motion";
+import Image from 'next/image';
 
 const About = () => {
 
@@ -16,7 +17,10 @@ const About = () => {
       repeatType: "reverse"
     }}
      >
-         <img src="/about-img.png" alt="" className='shadow-md h-[20rem] lg:h-[29rem] lg:w-[29rem] w-[16rem]  object-cover  object-top'/>
+         <Image src="/about-img.png" 
+         width={"16rem"}
+         height={"20rem"}
+         alt="" className='shadow-md h-[20rem] lg:h-[29rem] lg:w-[29rem] w-[16rem]  object-cover  object-top'/>
      </motion.div>
         <motion.div 
         className='w-[37rem] h-[12rem] flex flex-col '

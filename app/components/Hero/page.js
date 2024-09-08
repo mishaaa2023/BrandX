@@ -1,5 +1,6 @@
 "use client"
 import { motion, useAnimation } from "framer-motion";
+import Image from 'next/image';
 
 const Hero = () => {
 
@@ -28,8 +29,10 @@ const Hero = () => {
        }}
        className=' py-11 px-3'
         >
-            <img src="/IMG2.avif" alt="" className='shadow-md h-[20rem] lg:h-[29rem] lg:w-[29rem] w-[16rem]  object-cover  object-top '
+            <Image src="/IMG2.avif" alt="" className='shadow-md h-[20rem] lg:h-[29rem] lg:w-[29rem] w-[16rem]  object-cover  object-top '
             style={{borderRadius:"50%"}}
+            width={"16rem"}
+            height={"20rem"}
             />
         </motion.div>
     </motion.div>
