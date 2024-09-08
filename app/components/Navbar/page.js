@@ -1,7 +1,7 @@
 "use client"
-import Image from 'next/image';
-import Link from 'next/link';
-import { useState } from 'react';
+import Image from "next/image";
+import Link from "next/link";
+import { useState } from "react";
 
 function NavBar() {
   const [navbar, setNavbar] = useState(false);
@@ -45,7 +45,7 @@ function NavBar() {
           <div>
             <div
               className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-                navbar ? 'p-12 md:p-0 block' : 'hidden'
+                navbar ? "p-12 md:p-0 block" : "hidden"
               }`}
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex py-3">

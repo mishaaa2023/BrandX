@@ -1,5 +1,5 @@
-import React from 'react'
-import Image from 'next/image';
+import React from "react"
+import Image from "next/image";
 
 const Planning = () => {
   return (
@@ -20,7 +20,7 @@ const Planning = () => {
                 {/* text */}
                 <div className="">
                    <h1 className="text-[1.5rem] font-bold">Discuss your goals </h1>
-                   <p>Achieving our client's goals is our main motive.We will discuss your goals,problems your facing,your ideas and how we can help you achieve them.</p>
+                   <p>Achieving our client"s goals is our main motive.We will discuss your goals,problems your facing,your ideas and how we can help you achieve them.</p>
                 </div>
             </div>
             <div className="h-[21rem] w-[20rem] bg-gradient-to-r from-purple-500 to-pink-500 py-5 px-7 rounded-lg">
@@ -54,7 +54,7 @@ const Planning = () => {
                 {/* text */}
                 <div className="">
                    <h1 className="text-[1.5rem] font-bold">Delivering</h1>
-                   <p>After you've approved our work we will deliver you the final outcome. Simple right?
+                   <p>After you"ve approved our work we will deliver you the final outcome. Simple right?
                    </p>
                 </div>
             </div>
