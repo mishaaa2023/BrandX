@@ -15,7 +15,7 @@ const Hero = () => {
         transition={{ ease: "easeOut", duration: 3 }}
         >
             <h1 className="text-underline josefin-sans-bolder lg:text-[4rem] text-[2rem] font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500">Welcome to BrandX</h1>
-          <p className="poppins-regular  font-bold text-white">At BrandX, we&apos;re a team of creative thinkers, strategists, and problem-solvers dedicated to helping brands thrive. With years of experience in digital marketing, we bring a fresh perspective to every project, ensuring your brand stands out in a crowded market.
+          <p className="poppins-regular  font-bold text-white">At BrandX, we${"'"}re a team of creative thinkers, strategists, and problem-solvers dedicated to helping brands thrive. With years of experience in digital marketing, we bring a fresh perspective to every project, ensuring your brand stands out in a crowded market.
           </p>
         </motion.div>
         <motion.div
