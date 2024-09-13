@@ -29,7 +29,7 @@ const About = () => {
         transition={{ ease: "easeOut", duration: 3 }}
         >
             <h1 className="text-underline josefin-sans-bolder lg:text-[4rem] text-[2rem] font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500">About Us</h1>
-          <p className="poppins-regular  font-bold text-white">At BrandX, we're a team of creative thinkers, strategists, and problem-solvers dedicated to helping brands thrive. With years of experience in digital marketing, we bring a fresh perspective to every project, ensuring your brand stands out in a crowded market.Our mission is to empower businesses by crafting innovative marketing strategies that drive growth and build lasting relationships with customers.
+          <p className="poppins-regular  font-bold text-white">At BrandX, we&quot;re a team of creative thinkers, strategists, and problem-solvers dedicated to helping brands thrive. With years of experience in digital marketing, we bring a fresh perspective to every project, ensuring your brand stands out in a crowded market.Our mission is to empower businesses by crafting innovative marketing strategies that drive growth and build lasting relationships with customers.
             
           </p>
          
