@@ -54,7 +54,7 @@ const Planning = () => {
                 {/* text */}
                 <div >
                    <h1 className="text-[1.5rem] font-bold">Delivering</h1>
-                   <p>After you${"'"}ve approved our work we will deliver you the final outcome. Simple right?
+                   <p>After you&apos;ve approved our work we will deliver you the final outcome. Simple right?
                    </p>
                 </div>
             </div>
